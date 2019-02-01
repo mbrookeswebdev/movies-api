@@ -87,7 +87,7 @@ class MovieController extends Controller
                 $movie->title = $request->input('title');
             }
             if ($request->input('descr')) {
-                $movie->title = $request->input('descr');
+                $movie->descr = $request->input('descr');
             }
             if ($request->input('rating')) {
                 $movie->rating = $request->input('rating');
